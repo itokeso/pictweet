@@ -44,13 +44,15 @@
 -belongs_to :user
 -has_many :comments
 
-## commentsテーブル
+##  commentsテーブル  
 |Column|Type|Options|
-|text|string|-------|
+|------|----|-------|
+|text |string|------|
 |user_id|integer|foreign_key: true|
 |tweet_id|integer|foreign_key: true|
 ### Association
 -belongs_to :user
 -belongs_to :tweet
+
 
 
