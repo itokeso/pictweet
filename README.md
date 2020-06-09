@@ -41,8 +41,8 @@
 |text|string|null: false|
 |comment_id|integer|null: false, foreign_key: true|
 ### Association
--belongs_to :user
--has_many :comments
+- belongs_to :user
+- has_many :comments
 
 ##  commentsテーブル  
 |Column|Type|Options|
@@ -51,8 +51,8 @@
 |user_id|integer|foreign_key: true|
 |tweet_id|integer|foreign_key: true|
 ### Association
--belongs_to :user
--belongs_to :tweet
+- belongs_to :user
+- belongs_to :tweet
 
 
 
