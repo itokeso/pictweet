@@ -19,7 +19,7 @@
 |データベース|MYSQL|
   
 # DEMO
-![demo](https://row.github.com/wiki/itokeso/pictweet/image2/image.gif)
+![demo](https://raw.github.com/wiki/itokeso/chat/images/image.gif)
 
 # DB設計
 
